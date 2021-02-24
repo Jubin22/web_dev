@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BioData Form</title>
+</head>
+<body>
+	<h1>My Bio Data</h1>
+	<form>
+		<fieldset>
+			<legend>Personal Information</legend>
+			<div>
+				<label for="First-Name">First Name:</label>
+				<input id="First-Name" type="text" name="First-Name" placeholder="First Name">
+				<label for="Last-Name">Last Name:</label>
+				<input id="Last-Name" type="text" name="Last-Name" placeholder="Last Name">
+			</div>
+			<br>
+			<div>
+				<span>
+					Male:
+					<input type="radio" name="gender">
+				</span>
+				<span>
+					Female:
+					<input type="radio" name="gender">
+				</span>
+				<span>
+					Other:
+					<input type="radio" name="gender">
+				</span>
+			</div>
+			<br>
+
+			<div>
+				<label for id="dob">Date of birth :</label>
+				<input id="dob" type="date" name="dob">
+			</div>
+			<br>
+
+			<div>
+				<label for id="email">Email :</label>
+				<input id="email" type="email" name="email" placeholder="Enter your Email">
+			</div>
+			<br>
+
+			<div>
+				<label for id="Phone">Phone :</label>
+				<input id="Phone" type="number" name="Phone" placeholder="+91">
+			</div>
+			<br>
+			<div>
+				<label for id="Height">Height :</label>
+				<input id="Height" type="number" name="Height" placeholder="Height in feet">
+			</div>
+		</fieldset>
+		<fieldset>
+			
+			<legend>Education</legend>
+			<div>
+				<label for="School-Name">School Name:</label>
+				<input id="School-Name" type="text" name="School-Name" placeholder="School Name">
+			</div>
+			<br>
+			<div>
+				<label for="Class">Class</label>
+				<input id="Class" type="text" name="Class" placeholder="Enter Class">
+			</div>
+			<br>
+			<div>
+				<span>Stream:</span>
+				<select name="Stream">
+					<option>Stream</option>
+					<option>PCB</option>
+					<option>Commerce</option>
+				</select>
+			</div>
+			<br>
+			<div>
+				<label for="marksheet">Marksheet :</label>
+				<input type="file" name="marksheet">
+			</div>
+		</fieldset>
+		<br>
+
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>
